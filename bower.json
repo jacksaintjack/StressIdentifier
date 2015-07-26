@@ -1,0 +1,23 @@
+{
+  "name": "StressIdentifier",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jacksaintjack/StressIdentifier",
+  "authors": [
+    "Nicholas Glover <jacksaintjack@gmail.com>"
+  ],
+  "description": "Tests for Stress",
+  "keywords": [
+    "stress",
+    "anxiety"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.3.0",
+    "dropdown.js": "*",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3",
+    "compass": "~0.5.8",
+    "animsition": "~3.5.2"
+  }
+}
