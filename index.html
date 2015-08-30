@@ -17,10 +17,8 @@
         Content <span class="caret"></span>
       </button>
           <ul class="dropdown-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Stress</a></li>
-            <li><a href="#">Anxiety</a></li>
-            <li><a href="#">Stress Test</a></li>
+            <li><a href="#" rel=".wrapperOne">Home</a></li>
+            <li><a href="#"rel=".wrapperTwo">Stress Test</a></li>
             <li><a href="#">Anxiety Test</a></li>
           </ul>
     </div>
@@ -36,19 +34,43 @@
       <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Content <span class="caret"></span>
       </button>
-        <ul class="dropdown-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Stress</a></li>
-          <li><a href="#">Anxiety</a></li>
-          <li><a href="#">Stress Test</a></li>
-          <li><a href="#">Anxiety Test</a></li>
-        </ul>
+      <ul class="dropdown-menu">
+        <li><a href="#" rel=".wrapperOne">Home</a></li>
+        <li><a href="#" rel=".wrapperTwo">Stress Test</a></li>
+        <li><a href="#">Anxiety Test</a></li>
+      </ul>
     </div>
+
+      <div class ="quizSectionStress container-fluid">
+        <div class="rowOne">
+
+          <div class = "answers col-xs-1 col-md-1">
+            <div class="btn-group questionGroups">
+              <button type="button" class="btn btn-default btn-md dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Answer <span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#" id="questionOneZero" name="questionOneZero" value="0"><label for="questionOneZero">0</label></a></li>
+                  <li><a href="#" id="questionOneOne" name="questionOneOne" value="1"><label for="questionOneOne">1</label></a></li>
+                  <li><a href="#" id="questionOneTwo" name="questionOneTwo" value="2"><label for="questionOneTwo">2</label></a></li>
+                  <li><a href="#" id="questionOneThree" name="questionOneThree" value="3"><label for="questionOneThree">3</label></a></li>
+                  <li><a href="#" id="questionOneFour" name="questionOneFour" value="4"><label for="questionOneFour">4</label></a></li>
+                  <li><a href="#" id="questionOneFive" name="questionOneFive" value="5"><label for="questionOneFive">5</label></a></li>
+                  <li><a href="#" id="questionOneSix" name="questionOneSix" value="6"><label for="questionOneSix">6</label></a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class ="questions col-xs-11 col-md-11">
+            <span class="textQuestions"><b>Question 1:</b> I eat at least one Hot balance meal a day<span>
+          </div>
+        </div>
+      </div>
+
+  </div>
 
 
   <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script type="test/javascript" src="bower_components/animsition/dist/js/jquery.animsition.min.js"></script>
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"> </script>
   <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
   <script type="text/javascript" src="bower_components/bootstrap/js/dropdown.js"></script>

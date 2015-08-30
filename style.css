@@ -84,6 +84,8 @@
   display:inline-block;
 }
 
+/* Stress Page CSS */
+
 .wrapperTwo{
   background-image: url(Pictures/StressPage.jpg);
   background-repeat: no-repeat;
@@ -92,4 +94,40 @@
   margin:0;
   width: 100%;
   height: 68.2em;
+}
+
+.quizSectionStress{
+  background-color: blue;
+  width:70%;
+  height:100em;
+  margin-top:4em;
+  padding:0;
+
+}
+/* Styling of the question pages */
+.rowOne{
+  height:3%;
+  background-color:red;
+  border-bottom: 1px solid grey;
+  padding:0;
+}
+label{
+  padding-left:4%;
+}
+
+input{
+  margin-left:5%;
+}
+.questionGroups{
+  opacity: 1;
+  padding:0;
+  margin-left: -14%;
+  margin-top: 5%;
+}
+
+.textQuestions{
+  font-size: 1.5em;
+  float: left;
+  margin-top: 0.6%;
+  margin-left: 6%;
 }
