@@ -105,8 +105,15 @@
 
 }
 /* Styling of the question pages */
-.rowOne{
+.rowStyle{
   height:3%;
+  background-color:red;
+  border-bottom: 1px solid grey;
+  padding:0;
+}
+
+.rowStyleLarge{
+  height:5%;
   background-color:red;
   border-bottom: 1px solid grey;
   padding:0;
@@ -114,7 +121,6 @@
 label{
   padding-left:4%;
 }
-
 input{
   margin-left:5%;
 }
