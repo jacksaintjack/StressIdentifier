@@ -1,14 +1,14 @@
 $(document).ready(function() {
 //Moving from place to place
-  var pageHandler = function(event){
-      
-    event.preventDefault();
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  };
+var pageHandler = function(event){
+  console.log("this element ",$(this).attr('rel'));
+  event.preventDefault();
+  var clickedPage = $(this).attr('rel');
+  $(clickedPage).siblings().removeClass('active');
+  $(clickedPage).addClass('active');
+};
 
-  $('.wrapperThree').on('click', 'a', pageHandler);
+  $('.wrapperOne').on('click', 'a', pageHandler);
   $('.wrapperTwo').on('click', 'a', pageHandler);
 
 //Replaces answer in the dropdown-menu with the selection the user makes
@@ -683,7 +683,4 @@ $("#questionTwentySix").click(function(){
     return answerTwenty;
 });
 
-var stressTotal = answerOne + answerTwo + answerThree + answerFour + answerFive
-+ answerSix + answerSeven + answerEight + answerNine + answerTen + answerEleven + answerTwelve
-+ answerThirteen + answerFourteen + answerFifteen + answerSixteen + answerSeventeen
-+ answerEighteen + answerNineteen + answerTwenty;
+var stressTotal = answerOne + answerTwo + answerThree + answerFour + answerFive + answerSix + answerSeven + answerEight + answerNine + answerTen + answerEleven + answerTwelve + answerThirteen + answerFourteen + answerFifteen + answerSixteen + answerSeventeen + answerEighteen + answerNineteen + answerTwenty;
