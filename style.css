@@ -113,7 +113,7 @@
 }
 
 .rowStyleLarge{
-  height:5%;
+  height:8%;
   background-color:red;
   border-bottom: 1px solid grey;
   padding:0;
@@ -132,8 +132,13 @@ input{
 }
 
 .textQuestions{
-  font-size: 1.5em;
+  font-size: 1.3em;
   float: left;
   margin-top: 0.6%;
   margin-left: 6%;
+}
+
+#stressOutput{
+  background-color:blue;
+  
 }
